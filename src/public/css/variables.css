@@ -1,0 +1,82 @@
+/* ShareBite Design System Tokens */
+:root {
+  /* Brand Primary: Warm Emerald Green (Sustainability & Life) */
+  --primary-50: #ecfdf5;
+  --primary-100: #d1fae5;
+  --primary-200: #a7f3d0;
+  --primary-500: #10b981;
+  --primary-600: #059669;
+  --primary-700: #047857;
+  --primary-800: #065f46;
+
+  /* Brand Secondary: Energetic Orange / Amber (Food, Warmth, Hunger Urgency) */
+  --amber-50: #fffbeb;
+  --amber-100: #fef3c7;
+  --amber-200: #fde68a;
+  --amber-500: #f59e0b;
+  --amber-600: #d97706;
+  --orange-50: #fff7ed;
+  --orange-100: #ffedd5;
+  --orange-500: #f97316;
+  --orange-600: #ea580c;
+  --orange-700: #c2410c;
+
+  /* Neutrals: Clean Slate & Off-White */
+  --bg-main: #f8fafc;
+  --bg-surface: #ffffff;
+  --bg-elevated: #ffffff;
+  --border-subtle: #f1f5f9;
+  --border-default: #e2e8f0;
+  --border-strong: #cbd5e1;
+  
+  --text-main: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --text-light: #94a3b8;
+  --text-inverse: #ffffff;
+
+  /* Status Colors */
+  --status-available-bg: #ecfdf5;
+  --status-available-text: #047857;
+  --status-available-border: #a7f3d0;
+
+  --status-claimed-bg: #fff7ed;
+  --status-claimed-text: #c2410c;
+  --status-claimed-border: #fed7aa;
+
+  --status-transit-bg: #eff6ff;
+  --status-transit-text: #1d4ed8;
+  --status-transit-border: #bfdbfe;
+
+  --status-completed-bg: #f0fdf4;
+  --status-completed-text: #15803d;
+  --status-completed-border: #bbf7d0;
+
+  /* Dietary Tags */
+  --tag-veg-bg: #ecfdf5;
+  --tag-veg-text: #065f46;
+  --tag-vegan-bg: #f0fdf4;
+  --tag-vegan-text: #166534;
+  --tag-nonveg-bg: #fef2f2;
+  --tag-nonveg-text: #991b1b;
+  --tag-packaged-bg: #f8fafc;
+  --tag-packaged-text: #475569;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.08), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.09), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

@@ -1,0 +1,23 @@
+{
+  "name": "sharebite",
+  "version": "1.0.0",
+  "description": "ShareBite - Digital food rescue platform connecting donors with NGOs and volunteers to reduce food waste",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test/unit-integration.js && node test/registration-and-mock-test.js"
+  },
+  "keywords": [
+    "food-waste",
+    "food-rescue",
+    "sustainability",
+    "ngo",
+    "donor",
+    "volunteer",
+    "full-stack"
+  ],
+  "author": "ShareBite Team",
+  "license": "MIT"
+}
