@@ -5,7 +5,7 @@
   "main": "server.js",
   "type": "commonjs",
   "engines": {
-    "node": "20.x"
+    "node": "22.x"
   },
   "scripts": {
     "start": "node server.js",
@@ -22,5 +22,8 @@
     "full-stack"
   ],
   "author": "ShareBite Team",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^65.9.0"
+  }
 }
